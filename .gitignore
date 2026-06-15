@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Data (too large / Kaggle license)
+data/
+
+# Models & indexes (too large, rebuild from pipeline)
+models/
+
+# VnCoreNLP (download separately)
+VnCoreNLP*.jar
+VnCoreNLP-master/
+
+# Generated / derived files
+*.csv
+!eval_metrics_v2.csv
+generated_questions.json
+faq_template.csv
+README_test.md
+
+# API keys - KHONG BAO GIO commit file nay
+keys.py
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.log

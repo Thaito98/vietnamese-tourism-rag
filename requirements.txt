@@ -1,0 +1,34 @@
+# Phiên bản dưới đây khớp với môi trường đã kiểm thử.
+# Dùng >= thay vì == để tránh xung đột khi cài trên máy khác,
+# nhưng không hạ thấp hơn mức đã xác nhận chạy được.
+
+# Core libraries
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+
+# NLP & IR
+underthesea>=6.7.0
+rank-bm25>=0.2.2
+
+# Deep Learning & Transformers
+# sentence-transformers >=3.0 cần cho CrossEncoder API dùng trong reranking
+torch>=2.0
+transformers>=4.40
+sentence-transformers>=3.0
+
+# Web Interface
+streamlit>=1.25
+
+# Visualization
+matplotlib>=3.7
+seaborn>=0.12
+plotly>=5.15
+
+# Utilities
+tqdm>=4.65
+pyyaml>=6.0
+
+# Thống kê cho eval_score_v2.py (Wilcoxon test)
+scipy>=1.10
+
